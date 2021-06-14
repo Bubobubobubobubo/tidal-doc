@@ -83,6 +83,7 @@ module.exports = {
           "patternlib/howtos/startpattern",
         ],
         Tutorials: [
+          "patternlib/tutorikals/general-tutorial",
           "patternlib/tutorials/workshop",
           "patternlib/tutorials/course1",
           "patternlib/tutorials/course2",
