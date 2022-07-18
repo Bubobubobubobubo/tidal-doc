@@ -109,8 +109,8 @@ Be gentle with the resonance amount
 
 #### Bandpass filter
 
-* `bandf` / `bpf`: cutoff amount in hertz
-* `bandq` / `bpfq`: resonance
+* `bandf` / `bpf`: center frequency in hertz
+* `bandq` / `bpq`: resonance
 
 #### Vowel
 
@@ -175,7 +175,7 @@ Made by [Mads Kjeldgaard](https://madskjeldgaard.dk/). Shift and scale the posit
 
 * `binshift`: stretching and shifting of bins
 
-#### Bin srambling
+#### Bin scrambling
 
 Made by [Mads Kjeldgaard](https://madskjeldgaard.dk/). Accepts floats to control the width and placement of the scrambling in the spectrum:
 * `scram`: ???
