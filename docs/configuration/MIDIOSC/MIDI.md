@@ -75,6 +75,18 @@ You can also use the note-name and octave notation:
 d1 $ n "c4 d4 e5 g3" # s "midi"
 ```
 
+### Velocity and amplitude
+
+When using MIDI, note that `amp` is used to control velocity:
+
+```haskell
+# amp 0.1  -- velocity 12
+# amp 0.2  -- velocity 25
+# amp 0.4  -- velocity 50
+# amp 0.7  -- velocity 88
+# amp 0.95 -- velocity 120
+```
+
 #### MIDI Channels
 
 The default MIDI channel is 1. SuperDirt MIDI channels are indexed starting at zero, so MIDI channel 1 is midichan 0:
